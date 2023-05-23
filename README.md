@@ -1,4 +1,4 @@
-# BitBanana Website 🍌
+# BitBanana Website
 
 ![logo](/static/images/logo.png)
 
