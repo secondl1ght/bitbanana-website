@@ -1,6 +1,6 @@
 {
-	"name": "my-app",
-	"version": "0.0.1",
+	"name": "bitbanana-website",
+	"version": "0.2.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -23,5 +23,9 @@
 		"tailwindcss": "^3.3.2",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"description": "Website for the open source native android lightning node manager BitBanana",
+	"repository": "https://github.com/secondl1ght/bitbanana-website",
+	"author": "secondl1ght <secondl1ght@protonmail.com>",
+	"license": "AGPL-3.0"
 }
