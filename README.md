@@ -19,6 +19,6 @@ Website for the open source native android lightning node manager [BitBanana](ht
 - prettier
 - eslint
 
-## designed by [3j2009](https://github.com/3j2009) 🖌️
+## designed by [3j2009](https://github.com/3j2009) 🎨
 
 ![logo-icon](/static/images/logo-icon.png)
