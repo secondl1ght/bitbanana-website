@@ -52,7 +52,7 @@
 
 	<p class="mx-auto max-w-xl font-semibold">
 		With our commitment to <Link
-			link="https://github.com/michaelWuensch/BitBanana/blob/master/docs/REPRODUCIBILITY.md"
+			link="https://github.com/michaelWuensch/BitBanana/blob/master/docs/REPRODUCE.md"
 			title="reproducible"
 		/> builds, we guarantee the absence of hidden code in our software deliveries. Our releases exactly
 		mirror the open-source code, making them fully auditable by anyone seeking transparency and trust.
