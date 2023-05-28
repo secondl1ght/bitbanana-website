@@ -22,7 +22,10 @@ export default {
 				primary: '#232533',
 				link: '#FDBE00',
 				hover: '#FFCC33',
-				body: '#FFFDF8'
+				body: '#FFFDF8',
+				neutral: '#161314',
+				gradient: '#221E1F',
+				grey: '#979797'
 			}
 		}
 	},
