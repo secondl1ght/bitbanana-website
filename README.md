@@ -2,6 +2,8 @@
 
 ![logo](/static/images/logo.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/414fac4a-1b22-4130-8a6e-57ec7efe2760/deploy-status)](https://app.netlify.com/sites/bitbanana/deploys)
+
 Website for the open source native android lightning node manager [BitBanana](https://github.com/michaelWuensch/BitBanana)
 
 ## running locally 👨‍💻👩‍💻
