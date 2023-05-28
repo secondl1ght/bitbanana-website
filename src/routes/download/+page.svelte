@@ -12,7 +12,7 @@
 	<img src="/images/logo-mobile.png" alt="BitBanana" class="mx-auto block lg:hidden" />
 
 	<p class="font-semibold">
-		What you see is what you get....
+		What you see is what you get...
 		<br /><br />
 		100% Open Source.
 		<br />
