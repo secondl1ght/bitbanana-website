@@ -8,8 +8,8 @@
 </svelte:head>
 
 <div class="space-y-16 text-center text-lg lg:text-xl">
-	<img src="/images/logo.png" alt="BitBanana" class="mx-auto hidden lg:block" />
-	<img src="/images/logo-mobile.png" alt="BitBanana" class="mx-auto block lg:hidden" />
+	<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
+	<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
 
 	<p class="font-semibold">
 		What you see is what you get...

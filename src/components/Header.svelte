@@ -9,7 +9,7 @@
 	class="hidden items-center justify-between bg-gradient-to-b from-gradient to-primary px-16 py-4 lg:flex"
 >
 	<a href="/">
-		<img src="/images/logo-icon.png" alt="lightning bolt banana" class="w-16" />
+		<img src="/images/logo-icon.svg" alt="lightning bolt banana" class="w-16" />
 	</a>
 
 	<nav class="flex space-x-12">
@@ -27,7 +27,7 @@
 		class="flex items-center justify-between bg-gradient-to-b from-gradient to-primary px-8 py-4"
 	>
 		<a href="/" on:click={() => (showMobileMenu = false)}>
-			<img src="/images/logo-icon.png" alt="lightning bolt banana" class="w-12" />
+			<img src="/images/logo-icon.svg" alt="lightning bolt banana" class="w-12" />
 		</a>
 
 		<button on:click={() => (showMobileMenu = !showMobileMenu)}>

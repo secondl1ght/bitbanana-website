@@ -1,6 +1,6 @@
 # BitBanana Website
 
-![logo](/static/images/logo.png)
+![logo](/static/images/logo.svg)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/414fac4a-1b22-4130-8a6e-57ec7efe2760/deploy-status)](https://app.netlify.com/sites/bitbanana/deploys)
 
@@ -23,4 +23,4 @@ Website for the open source native android lightning node manager [BitBanana](ht
 
 ## designed by [3j2009](https://github.com/3j2009) 🎨
 
-![logo-icon](/static/images/logo-icon.png)
+![logo-icon](/static/images/logo-icon.svg)

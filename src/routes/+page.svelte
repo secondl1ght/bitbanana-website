@@ -34,8 +34,8 @@
 
 <div class="space-y-32 lg:space-y-44">
 	<section id="hero" class="space-y-4 lg:space-y-8">
-		<img src="/images/logo.png" alt="BitBanana" class="mx-auto hidden lg:block" />
-		<img src="/images/logo-mobile.png" alt="BitBanana" class="mx-auto block lg:hidden" />
+		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
+		<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
 
 		<h1 class="text-center text-2xl font-bold lg:text-3xl">
 			Lightning Node Management for Android
@@ -59,7 +59,7 @@
 		</div>
 
 		<img
-			src="/images/app/1.png"
+			src="/images/app/1.svg"
 			alt="app screenshot"
 			class="mx-auto mt-8 drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:mx-0 lg:mt-0"
 		/>
@@ -67,7 +67,7 @@
 
 	<section id="fees" class="justify-between lg:flex">
 		<img
-			src="/images/app/2.png"
+			src="/images/app/2.svg"
 			alt="app screenshot"
 			class="hidden drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:block"
 		/>
@@ -85,7 +85,7 @@
 		</div>
 
 		<img
-			src="/images/app/2.png"
+			src="/images/app/2.svg"
 			alt="app screenshot"
 			class="mx-auto mt-8 block drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:hidden"
 		/>
@@ -104,7 +104,7 @@
 		</div>
 
 		<img
-			src="/images/app/3.png"
+			src="/images/app/3.svg"
 			alt="app screenshot"
 			class="mx-auto mt-8 drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:mx-0 lg:mt-0"
 		/>
@@ -123,9 +123,9 @@
 		<div
 			class="justify-between space-y-8 drop-shadow-[0_0_100px_rgba(253,190,0,1)] lg:flex lg:space-y-0"
 		>
-			<img src="/images/app/4.png" alt="app screenshot" class="mx-auto lg:mx-0" />
-			<img src="/images/app/5.png" alt="app screenshot" class="mx-auto lg:mx-0" />
-			<img src="/images/app/6.png" alt="app screenshot" class="mx-auto lg:mx-0" />
+			<img src="/images/app/4.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
+			<img src="/images/app/5.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
+			<img src="/images/app/6.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 		</div>
 	</section>
 
@@ -133,7 +133,7 @@
 		<div class="space-y-4">
 			<div class="flex items-center justify-center space-x-1">
 				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
-				<img src="/images/logo-mobile.png" alt="BitBanana" class="w-44 lg:w-auto" />
+				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
 			</div>
 
 			<Button link="/download" title="Download" />
@@ -151,7 +151,7 @@
 			</div>
 
 			<img
-				src="/images/app/7.png"
+				src="/images/app/7.svg"
 				alt="app screenshot"
 				class="mx-auto mt-8 max-h-[591px] lg:mx-0 lg:mt-0"
 			/>
