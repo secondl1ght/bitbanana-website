@@ -111,7 +111,7 @@
 	</section>
 
 	<section id="navigate" class="space-y-8 lg:space-y-32">
-		<div class="space-y-4 text-center">
+		<div class="space-y-4 lg:text-center">
 			<h2 class="text-4xl font-bold lg:text-5xl">Navigate Effortlessly</h2>
 
 			<p class="mx-auto max-w-xl text-lg font-semibold text-body lg:text-xl">
