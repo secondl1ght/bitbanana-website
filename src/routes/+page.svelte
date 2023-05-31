@@ -1,29 +1,51 @@
 <script>
 	import { Button, Link } from '$comp';
 
-	const features = [
-		'Connect to remote LND nodes',
+	const general = [
+		'Connect to remote lightning nodes (LND only supported right now)',
+		'Available in many languages',
+		'Explanations and help across the app',
+		'And of course, BitBanana is Bitcoin only!'
+	];
+
+	const nodeManagement = [
+		'Use your node as a wallet wherever you are',
 		'Manage multiple nodes',
 		'Channel management',
-		'Routing summary',
-		'Contacts',
+		'Routing summary'
+	];
+
+	const wallet = [
+		'100% free, no BitBanana fees.',
+		'Contacts (with avatars)',
+		'Send funds to Lightning Addresses',
+		'Send funds without an invoice (keysend)',
+		'NFC support',
+		'Transaction filters',
+		'BTC, mBTC, bit & Satoshi units',
 		'Fiat currency prices',
 		'Support for SegWit & Taproot',
-		'BTC, mBTC, bit & Satoshi units',
-		'Available in many languages',
-		'LNURL support (pay, withdraw & channel)',
-		'Send funds without an invoice (keysend)',
-		'Send funds to lightning addresses',
-		'Transaction filter',
-		'Read NFC tags',
 		'Sign / Verify',
+		'LNURL support (pay, withdraw & channel)'
+	];
+
+	const securityAndPrivacy = [
+		'100% Self-Custodial',
+		'100% Open Source code with reproducible releases',
+		'ZERO data collection',
 		'Tor support',
 		'PIN protected access',
 		'Scrambled PIN by default',
-		'Protection against screen recording',
-		'Option to hide total balance',
 		'User guardian system',
-		'And of course, BitBanana is Bitcoin only!'
+		'Protection against screen recording',
+		'Hide total balance'
+	];
+
+	const features = [
+		{ title: 'General', list: general },
+		{ title: 'Node Management', list: nodeManagement },
+		{ title: 'Wallet', list: wallet },
+		{ title: 'Security & Privacy', list: securityAndPrivacy }
 	];
 </script>
 
@@ -129,8 +151,8 @@
 		</div>
 	</section>
 
-	<section id="get" class="space-y-8 lg:space-y-16">
-		<div class="space-y-4">
+	<section id="get">
+		<div class="space-y-4 mb-16">
 			<div class="flex items-center justify-center space-x-1">
 				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
 				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
@@ -139,22 +161,18 @@
 			<Button link="/download" title="Download" />
 		</div>
 
-		<div class="justify-around lg:flex">
-			<div class="space-y-4 lg:w-1/2">
-				<h3 class="text-lg font-bold lg:text-xl">Features</h3>
-
-				<ul class="ml-5 list-disc font-semibold text-body lg:text-lg">
-					{#each features as item}
-						<li>{item}</li>
-					{/each}
-				</ul>
-			</div>
-
-			<img
-				src="/images/app/7.svg"
-				alt="app screenshot"
-				class="mx-auto mt-8 max-h-[591px] lg:mx-0 lg:mt-0"
-			/>
+		<h3 class="text-2xl font-bold lg:text-3xl mb-8 lg:mb-16">Feature Overview</h3>
+		<div class="grid-cols-2 gap-8 space-y-8 lg:grid lg:space-y-0">
+			{#each features as feature}
+				<div>
+					<h4 class="text-lg font-semibold lg:text-xl">{feature.title}</h4>
+					<ul class="ml-8 list-disc text-body lg:text-lg">
+						{#each feature.list as item}
+							<li>{item}</li>
+						{/each}
+					</ul>
+				</div>
+			{/each}
 		</div>
 	</section>
 </div>
