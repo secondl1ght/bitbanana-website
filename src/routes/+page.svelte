@@ -152,7 +152,7 @@
 	</section>
 
 	<section id="get">
-		<div class="space-y-4 mb-16">
+		<div class="mb-16 space-y-4">
 			<div class="flex items-center justify-center space-x-1">
 				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
 				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
@@ -161,7 +161,7 @@
 			<Button link="/download" title="Download" />
 		</div>
 
-		<h3 class="text-2xl font-bold lg:text-3xl mb-8 lg:mb-16">Feature Overview</h3>
+		<h3 class="mb-8 text-2xl font-bold lg:mb-16 lg:text-3xl">Feature Overview</h3>
 		<div class="grid-cols-2 gap-8 space-y-8 lg:grid lg:space-y-0">
 			{#each features as feature}
 				<div>
