@@ -1,5 +1,5 @@
 <script>
-	import { Template, Link } from '$comp';
+	import { TemplateSwitchedTitle, Link } from '$comp';
 	import { links } from '$lib/store';
 </script>
 
@@ -8,7 +8,7 @@
 	<meta property="twitter:title" content="BitBanana - Contribute" />
 </svelte:head>
 
-<Template title="Contribute" link={$links.github} button="Contribute on GitHub">
+<TemplateSwitchedTitle title="Contribute to" link={$links.github} button="Contribute on GitHub">
 	Hey, do you like BitBanana? Awesome! We could really use your help! Open Source isn't just writing
 	code. You can contribute to BitBanana in many different ways:
 
@@ -42,4 +42,4 @@
 		link="https://github.com/michaelWuensch/BitBanana/blob/master/docs/CONTRIBUTING.md"
 		title="Contributing Guide"
 	/>.
-</Template>
+</TemplateSwitchedTitle>

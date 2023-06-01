@@ -55,12 +55,13 @@
 </svelte:head>
 
 <div class="space-y-32 lg:space-y-44">
-	<section id="hero" class="space-y-4 lg:space-y-8">
+	<section id="hero" class="space-y-4 lg:space-y-2">
 		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
 		<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
 
-		<h1 class="text-center text-2xl font-bold lg:text-3xl">
-			Lightning Node Management for Android
+		<h1 class="text-center text-2xl font-bold lg:text-3xl pb-6">
+			<span class="avoidwrap">Lightning Node </span>
+			<span class="avoidwrap">Management for Android</span>
 		</h1>
 
 		<Button link="/download" title="Download" />
@@ -154,7 +155,7 @@
 	<section id="get">
 		<div class="mb-16 space-y-4">
 			<div class="flex items-center justify-center space-x-1">
-				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
+				<h2 class="text-center text-4xl font-bold lg:text-5xl pe-1">Get</h2>
 				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
 			</div>
 

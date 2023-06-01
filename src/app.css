@@ -16,3 +16,7 @@ html {
 	color: #221e1f;
 	background: #fdbe00;
 }
+
+span.avoidwrap { 
+	display:inline-block; 
+}
