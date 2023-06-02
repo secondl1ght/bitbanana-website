@@ -11,7 +11,7 @@
 <div class="space-y-14">
 	<div>
 		{#if position === 'top'}
-			<h2 class="text-center text-4xl font-bold lg:text-5xl">{title}</h2>
+			<h2 class="pt-2 text-center text-4xl font-bold lg:text-5xl">{title}</h2>
 		{/if}
 
 		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
