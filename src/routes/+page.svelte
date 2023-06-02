@@ -59,9 +59,9 @@
 		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
 		<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
 
-		<h1 class="text-center text-2xl font-bold lg:text-3xl pb-6">
-			<span class="avoidwrap">Lightning Node </span>
-			<span class="avoidwrap">Management for Android</span>
+		<h1 class="pb-6 text-center text-2xl font-bold lg:text-3xl">
+			<span class="inline-block">Lightning Node</span>
+			<span class="inline-block">Management for Android</span>
 		</h1>
 
 		<Button link="/download" title="Download" />
@@ -154,8 +154,8 @@
 
 	<section id="get">
 		<div class="mb-16 space-y-4">
-			<div class="flex items-center justify-center space-x-1">
-				<h2 class="text-center text-4xl font-bold lg:text-5xl pe-1">Get</h2>
+			<div class="flex items-center justify-center space-x-2">
+				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
 				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
 			</div>
 
