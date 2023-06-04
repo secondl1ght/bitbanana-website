@@ -9,7 +9,7 @@
 		href={link}
 		target={external ? '_blank' : '_self'}
 		rel="noreferrer"
-		class="inline-block rounded bg-link px-4 py-3 text-lg font-semibold text-neutral hover:bg-hover lg:text-xl"
+		class="inline-block rounded bg-link px-4 py-2 text-lg font-semibold text-neutral hover:bg-hover lg:text-xl"
 		>{title}</a
 	>
 </div>
