@@ -137,15 +137,13 @@
 		<div class="space-y-4 lg:text-center">
 			<h2 class="text-4xl font-bold lg:text-5xl">Navigate Effortlessly</h2>
 
-			<p class="mx-auto max-w-xl text-lg font-semibold text-body lg:text-xl">
+			<p class="max-w-xl text-lg font-semibold text-body lg:mx-auto lg:text-xl">
 				BitBanana’s powerful, user-friendly dashboard is like a pocket sized remote control for your
 				node.
 			</p>
 		</div>
 
-		<div
-			class="justify-between space-y-8 drop-shadow-[0_0_100px_rgba(253,190,0,1)] lg:flex lg:space-y-0"
-		>
+		<div class="flex-wrap justify-center gap-32 space-y-8 lg:flex lg:space-y-0">
 			<img src="/images/app/4.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/5.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/6.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
