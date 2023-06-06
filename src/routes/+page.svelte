@@ -143,7 +143,9 @@
 			</p>
 		</div>
 
-		<div class="flex-wrap justify-center gap-32 space-y-8 lg:flex lg:space-y-0">
+		<div
+			class="flex-wrap justify-center gap-32 space-y-8 drop-shadow-[0_0_100px_rgba(253,190,0,1)] lg:flex lg:space-y-0"
+		>
 			<img src="/images/app/4.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/5.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/6.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
