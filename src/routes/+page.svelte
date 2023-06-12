@@ -56,8 +56,7 @@
 
 <div class="space-y-32 lg:space-y-44">
 	<section id="hero" class="space-y-4 lg:space-y-2">
-		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
-		<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
+		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto w-[218px] lg:w-auto" />
 
 		<h1 class="pb-6 text-center text-2xl font-bold lg:text-3xl">
 			<span class="inline-block">Lightning Node</span>
@@ -67,8 +66,14 @@
 		<Button link="/download" title="Download" />
 	</section>
 
-	<section id="privacy" class="justify-between lg:flex">
-		<div class="space-y-4 lg:w-1/2">
+	<section id="privacy" class="relative justify-between lg:flex">
+		<img
+			src="/images/bg-image-0.svg"
+			alt="lightning bolt"
+			class="absolute right-0 top-0 z-0 h-[700px] w-[700px] overflow-visible object-cover lg:-right-64 lg:-top-64 lg:h-auto lg:w-auto"
+		/>
+
+		<div class="radial relative z-10 space-y-4 lg:w-1/2">
 			<h2 class="text-4xl font-bold lg:text-5xl">Unmatched Privacy Protection</h2>
 
 			<p class="text-lg font-semibold text-body lg:text-xl">
@@ -84,18 +89,20 @@
 		<img
 			src="/images/app/1.svg"
 			alt="app screenshot"
-			class="mx-auto mt-8 drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:mx-0 lg:mt-0"
+			class="relative z-10 mx-auto mt-8 lg:mx-0 lg:mt-0"
 		/>
 	</section>
 
-	<section id="fees" class="justify-between lg:flex">
+	<section id="fees" class="relative justify-between lg:flex">
 		<img
-			src="/images/app/2.svg"
-			alt="app screenshot"
-			class="hidden drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:block"
+			src="/images/bg-image-1.svg"
+			alt="lightning bolt"
+			class="absolute left-0 top-0 z-0 h-[700px] w-[700px] overflow-visible object-cover lg:-left-64 lg:-top-64 lg:h-auto lg:w-auto"
 		/>
 
-		<div class="space-y-4 lg:w-1/2">
+		<img src="/images/app/2.svg" alt="app screenshot" class="relative z-10 hidden lg:block" />
+
+		<div class="radial relative z-10 space-y-4 lg:w-1/2">
 			<h2 class="text-4xl font-bold lg:text-5xl">
 				No Fees. <br />
 				Now and Forever.
@@ -110,12 +117,18 @@
 		<img
 			src="/images/app/2.svg"
 			alt="app screenshot"
-			class="mx-auto mt-8 block drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:hidden"
+			class="relative z-10 mx-auto mt-8 block lg:hidden"
 		/>
 	</section>
 
-	<section id="tools" class="justify-between lg:flex">
-		<div class="space-y-4 lg:w-1/2">
+	<section id="tools" class="relative justify-between lg:flex">
+		<img
+			src="/images/bg-image-2.svg"
+			alt="lightning bolt"
+			class="absolute right-0 top-0 z-0 h-[700px] w-[700px] overflow-visible object-cover lg:-right-64 lg:-top-64 lg:h-auto lg:w-auto"
+		/>
+
+		<div class="radial relative z-10 space-y-4 lg:w-1/2">
 			<h2 class="text-4xl font-bold lg:text-5xl">Intuitive Contact Management Tools</h2>
 
 			<p class="text-lg font-semibold text-body lg:text-xl">
@@ -129,12 +142,18 @@
 		<img
 			src="/images/app/3.svg"
 			alt="app screenshot"
-			class="mx-auto mt-8 drop-shadow-[0_0_100px_rgba(255,247,92,1)] lg:mx-0 lg:mt-0"
+			class="relative z-10 mx-auto mt-8 lg:mx-0 lg:mt-0"
 		/>
 	</section>
 
-	<section id="navigate" class="space-y-8 lg:space-y-32">
-		<div class="space-y-4 lg:text-center">
+	<section id="navigate" class="relative space-y-8 lg:space-y-32">
+		<img
+			src="/images/bg-image-3.svg"
+			alt="lightning bolt"
+			class="absolute top-0 z-0 h-[700px] w-[700px] overflow-visible object-cover lg:-top-64 lg:h-auto lg:w-auto"
+		/>
+
+		<div class="radial relative z-10 space-y-4 lg:text-center">
 			<h2 class="text-4xl font-bold lg:text-5xl">Navigate Effortlessly</h2>
 
 			<p class="max-w-xl text-lg font-semibold text-body lg:mx-auto lg:text-xl">
@@ -143,9 +162,7 @@
 			</p>
 		</div>
 
-		<div
-			class="flex-wrap justify-center gap-32 space-y-8 drop-shadow-[0_0_100px_rgba(253,190,0,1)] lg:flex lg:space-y-0"
-		>
+		<div class="relative z-10 flex-wrap justify-center gap-32 space-y-8 lg:flex lg:space-y-0">
 			<img src="/images/app/4.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/5.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
 			<img src="/images/app/6.svg" alt="app screenshot" class="mx-auto lg:mx-0" />
@@ -156,7 +173,7 @@
 		<div class="mb-16 space-y-4">
 			<div class="flex items-center justify-center space-x-2">
 				<h2 class="text-center text-4xl font-bold lg:text-5xl">Get</h2>
-				<img src="/images/logo-mobile.svg" alt="BitBanana" class="w-44 lg:w-auto" />
+				<img src="/images/logo.svg" alt="BitBanana" class="w-44 lg:w-[218px]" />
 			</div>
 
 			<Button link="/download" title="Download" />
@@ -177,3 +194,13 @@
 		</div>
 	</section>
 </div>
+
+<style>
+	.radial {
+		background: radial-gradient(
+			50% 49.61% at 50% 50.08%,
+			rgba(35, 37, 51, 0.5) 0%,
+			rgba(35, 37, 51, 0) 100%
+		);
+	}
+</style>

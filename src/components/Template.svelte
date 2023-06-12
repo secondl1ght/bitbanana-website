@@ -14,8 +14,7 @@
 			<h2 class="text-center text-4xl font-bold lg:text-5xl">{title}</h2>
 		{/if}
 
-		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto hidden lg:block" />
-		<img src="/images/logo-mobile.svg" alt="BitBanana" class="mx-auto block lg:hidden" />
+		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto w-[218px] lg:w-auto" />
 
 		{#if position === 'bottom'}
 			<h2 class="text-center text-4xl font-bold lg:text-5xl">{title}</h2>
