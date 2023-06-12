@@ -70,7 +70,7 @@
 		<img
 			src="/images/bg-image-0.svg"
 			alt="lightning bolt"
-			class="absolute right-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-right-64 lg:-top-64 lg:h-[1500px] lg:w-[1500px]"
+			class="absolute right-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-right-80 lg:-top-80 lg:h-[1500px] lg:w-[1500px]"
 		/>
 
 		<div class="radial relative z-10 space-y-4 lg:w-1/2">
@@ -97,7 +97,7 @@
 		<img
 			src="/images/bg-image-1.svg"
 			alt="lightning bolt"
-			class="absolute left-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-left-64 lg:-top-64 lg:h-[1500px] lg:w-[1500px]"
+			class="absolute left-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-left-80 lg:-top-80 lg:h-[1500px] lg:w-[1500px]"
 		/>
 
 		<img src="/images/app/2.svg" alt="app screenshot" class="relative z-10 hidden lg:block" />
@@ -125,7 +125,7 @@
 		<img
 			src="/images/bg-image-2.svg"
 			alt="lightning bolt"
-			class="absolute right-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-right-64 lg:-top-64 lg:h-[1500px] lg:w-[1500px]"
+			class="absolute right-0 top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-right-80 lg:-top-80 lg:h-[1500px] lg:w-[1500px]"
 		/>
 
 		<div class="radial relative z-10 space-y-4 lg:w-1/2">
@@ -150,7 +150,7 @@
 		<img
 			src="/images/bg-image-3.svg"
 			alt="lightning bolt"
-			class="absolute top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-top-64 lg:h-[1500px] lg:w-[1500px]"
+			class="absolute top-0 z-0 h-[1000px] w-[1000px] overflow-visible object-cover lg:-top-80 lg:h-[1500px] lg:w-[1500px]"
 		/>
 
 		<div class="radial relative z-10 space-y-4 lg:text-center">
