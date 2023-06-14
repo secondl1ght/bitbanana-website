@@ -16,3 +16,7 @@ html {
 	color: #221e1f;
 	background: #fdbe00;
 }
+
+body {
+	background-image: url('/images/noise.png');
+}
