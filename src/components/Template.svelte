@@ -2,6 +2,7 @@
 	export let title;
 	export let link;
 	export let button;
+	export let hasButton = true;
 	export let external = true;
 	export let position = 'bottom';
 
@@ -24,6 +25,8 @@
 	<p class="mx-auto max-w-4xl text-lg font-semibold text-body lg:text-xl">
 		<slot />
 	</p>
-
-	<Button {link} title={button} {external} />
+	
+	{#if hasButton}
+		<Button {link} title={button} {external} />
+	{/if}
 </div>
