@@ -28,10 +28,12 @@
 	<br />
 	On-Chain:
 	<br />
-	<Link
-		link="bitcoin:bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
-		title="bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
-	/>
+	<span class="break-all">
+		<Link
+			link="bitcoin:bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
+			title="bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
+		/>
+	</span>
 	(Michael, main developer)
 	<br />
 </Template>
