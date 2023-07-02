@@ -1,7 +1,7 @@
 <script>
 	export let title;
-	export let link;
-	export let button;
+	export let link = undefined;
+	export let button = undefined;
 	export let external = true;
 	export let position = 'bottom';
 
@@ -21,9 +21,9 @@
 		{/if}
 	</div>
 
-	<p class="mx-auto max-w-4xl text-lg font-semibold text-body lg:text-xl">
+	<div class="mx-auto max-w-4xl text-lg font-semibold text-body lg:text-xl">
 		<slot />
-	</p>
+	</div>
 
 	{#if link && button}
 		<Button {link} title={button} {external} />
