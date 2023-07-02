@@ -13,8 +13,20 @@
 	code. You can contribute to BitBanana in many different ways:
 
 	<ul class="my-5 ml-5 list-disc">
-		<li>Drop a star on GitHub</li>
-		<li>Share a positive review and rate the app in the app store</li>
+		<li>
+			<Link link="/donate" title="Donate" external={false} />
+		</li>
+		<li>
+			Drop a star on
+			<Link link="https://github.com/michaelWuensch/BitBanana" title="GitHub" />
+		</li>
+		<li>
+			Share a positive review and rate the app in the
+			<Link
+				link="https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana"
+				title="app store"
+			/>
+		</li>
 		<li>Tell your friends about it</li>
 		<li>
 			<Link

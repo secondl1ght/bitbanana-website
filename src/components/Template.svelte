@@ -25,5 +25,7 @@
 		<slot />
 	</p>
 
-	<Button {link} title={button} {external} />
+	{#if link && button}
+		<Button {link} title={button} {external} />
+	{/if}
 </div>
