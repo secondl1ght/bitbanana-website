@@ -32,7 +32,7 @@
 	My dream (Michael, main developer) is to do this full-time and deliver what you love at an unprecedented
 	speed and quality.
 
-	<div class="mt-14 grid-cols-2 gap-4 space-y-16 md:grid md:space-y-0">
+	<div class="mt-14 grid-cols-2 gap-4 space-y-14 md:grid md:space-y-0">
 		{#each team as member}
 			<Team
 				name={member.name}
