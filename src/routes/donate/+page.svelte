@@ -1,5 +1,20 @@
 <script>
-	import { Template, Link } from '$comp';
+	import { Template, Team } from '$comp';
+
+	const team = [
+		{
+			name: 'Michael',
+			title: 'Main Developer',
+			lightning: 'michael90@getalby.com',
+			onchain: 'bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj'
+		},
+		{
+			name: 'secondl1ght',
+			title: 'Website Developer',
+			lightning: 'secondl1ght@getalby.com',
+			onchain: 'bc1q2y54dtz77ln9f9flmk7aj09wk9prsfzjsa2uqd'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -16,24 +31,15 @@
 	<br />
 	My dream (Michael, main developer) is to do this full-time and deliver what you love at an unprecedented
 	speed and quality.
-	<br /><br /><br />
-	Lightning:
-	<br />
-	<Link link="lightning:michael90@getalby.com" title="michael90@getalby.com" />
-	(Michael, main developer)
-	<br />
-	<Link link="lightning:secondl1ght@getalby.com" title="secondl1ght@getalby.com" />
-	(secondl1ght, website developer)
-	<br />
-	<br />
-	On-Chain:
-	<br />
-	<span class="break-all">
-		<Link
-			link="bitcoin:bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
-			title="bc1pxdvk8h2tgfkgrg52yz34wscfyamz5cfsnk6nndkw3ep5g25sd26q0c7xrj"
-		/>
-	</span>
-	(Michael, main developer)
-	<br />
+
+	<div class="mt-14 grid-cols-2 gap-4 space-y-16 md:grid md:space-y-0">
+		{#each team as member}
+			<Team
+				name={member.name}
+				title={member.title}
+				lightning={member.lightning}
+				onchain={member.onchain}
+			/>
+		{/each}
+	</div>
 </Template>
