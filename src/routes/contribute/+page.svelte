@@ -14,22 +14,14 @@
 
 	<ul class="my-5 ml-5 list-disc">
 		<li>
-			<Link
-				link="/donate"
-				title="Donate"
-				external={false}
-			/>
+			<Link link="/donate" title="Donate" external={false} />
 		</li>
 		<li>
-			Drop a star on 
-			<Link
-				link="https://github.com/michaelWuensch/BitBanana"
-				title="GitHub"
-			/>
+			Drop a star on
+			<Link link="https://github.com/michaelWuensch/BitBanana" title="GitHub" />
 		</li>
-		
 		<li>
-			Share a positive review and rate the app in the 
+			Share a positive review and rate the app in the
 			<Link
 				link="https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana"
 				title="app store"
