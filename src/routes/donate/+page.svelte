@@ -13,6 +13,12 @@
 			title: 'Website Developer',
 			lightning: 'secondl1ght@getalby.com',
 			onchain: 'bc1q2y54dtz77ln9f9flmk7aj09wk9prsfzjsa2uqd'
+		},
+		{
+			name: '3j2009',
+			title: 'Website Designer',
+			lightning: '3j2009@getalby.com',
+			onchain: 'bc1qmrsl6w87p6cag40nztq0au9jfagupm9g7vtj0p'
 		}
 	];
 </script>
@@ -32,7 +38,7 @@
 	My dream (Michael, main developer) is to do this full-time and deliver what you love at an unprecedented
 	speed and quality.
 
-	<div class="mt-14 grid-cols-2 gap-4 space-y-14 md:grid md:space-y-0">
+	<div class="mt-14 grid-cols-3 gap-4 space-y-14 lg:grid lg:space-y-0">
 		{#each team as member}
 			<Team
 				name={member.name}

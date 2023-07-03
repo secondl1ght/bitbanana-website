@@ -1,5 +1,5 @@
 <script>
-	const nav = ['community', 'contribute', 'docs', 'about', 'download'];
+	const nav = ['community', 'contribute', 'donate', 'docs', 'about', 'download'];
 
 	let showMobileMenu = false;
 </script>
