@@ -3,7 +3,7 @@
 </script>
 
 <footer class="space-y-8 bg-gradient-to-t from-gradient to-primary py-8 lg:space-y-16 lg:py-16">
-	<div class="flex items-center justify-center space-x-8">
+	<div class="flex flex-wrap items-center justify-center gap-8">
 		<a href={$links.github} target="_blank" rel="noreferrer">
 			<img src="/images/social/github.svg" alt="github" />
 		</a>
