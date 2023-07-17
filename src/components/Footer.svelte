@@ -10,6 +10,12 @@
 		<a href={$links.discord} target="_blank" rel="noreferrer">
 			<img src="/images/social/discord.svg" alt="discord" />
 		</a>
+		<a href={$links.twitter} target="_blank" rel="noreferrer">
+			<img src="/images/social/twitter.svg" alt="twitter" />
+		</a>
+		<a href={$links.nostr} target="_blank" rel="noreferrer">
+			<img src="/images/social/nostr.svg" alt="nostr" />
+		</a>
 	</div>
 
 	<div class="flex justify-center space-x-8">
