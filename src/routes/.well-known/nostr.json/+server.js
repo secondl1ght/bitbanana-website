@@ -2,7 +2,7 @@ export function GET() {
 	return new Response(
 		JSON.stringify({
 			names: {
-				_: 'npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj'
+				_: '6ba7e706f2b8ff996ad0ac2cb44fde71d5d203579ebf28fbfff517d652936c58'
 			}
 		}),
 		{ headers: { 'Access-Control-Allow-Origin': '*' } }
