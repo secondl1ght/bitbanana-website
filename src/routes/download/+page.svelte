@@ -18,11 +18,17 @@
 		100% Reproducible.
 	</p>
 
-	<div class="mx-auto max-w-xl grid-cols-2 space-y-16 lg:grid lg:space-y-0">
-		<!--<div class="space-y-4">
-			<p class="font-bold">F-Droid <span class="text-base font-normal">(Soon!)</span></p>
-			<Icon icon="fdroid" style="mx-auto opacity-50 text-link w-[57px] h-[64px]" />
-		</div>-->
+	<div class="mx-auto max-w-xl grid-cols-3 space-y-16 lg:grid lg:space-y-0">
+		<div class="space-y-4">
+			<p class="font-bold">F-Droid</p>
+			<a
+				href="https://f-droid.org/de/packages/app.michaelwuensch.bitbanana/"
+				target="_blank"
+				rel="noreferrer"
+				class="inline-block"
+			>
+			<Icon icon="fdroid" style="mx-auto text-link hover:text-hover w-[57px] h-[64px]" />
+		</div>
 
 		<div class="space-y-4">
 			<p class="font-bold">Google Play</p>
