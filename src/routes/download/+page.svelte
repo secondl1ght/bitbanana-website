@@ -27,7 +27,8 @@
 				rel="noreferrer"
 				class="inline-block"
 			>
-			<Icon icon="fdroid" style="mx-auto text-link hover:text-hover w-[57px] h-[64px]" />
+				<Icon icon="fdroid" style="mx-auto text-link hover:text-hover w-[57px] h-[64px]" />
+			</a>
 		</div>
 
 		<div class="space-y-4">

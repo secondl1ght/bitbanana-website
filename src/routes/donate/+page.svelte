@@ -33,7 +33,8 @@
 	<br />
 	Your donation will help and motivate us to spend more time on the project.
 	<br /><br />
-	At BitBanana we do everything for free. There is no business model. We appreciate every single sat donated and believe in a world where our effort will pay back in a positive way.
+	At BitBanana we do everything for free. There is no business model. We appreciate every single sat
+	donated and believe in a world where our effort will pay back in a positive way.
 
 	<div class="mt-14 grid-cols-3 gap-4 space-y-14 lg:grid lg:space-y-0">
 		{#each team as member}
