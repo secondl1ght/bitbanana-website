@@ -22,7 +22,7 @@
 		<div class="space-y-4">
 			<p class="font-bold">F-Droid</p>
 			<a
-				href="https://f-droid.org/de/packages/app.michaelwuensch.bitbanana/"
+				href="https://f-droid.org/en/packages/app.michaelwuensch.bitbanana/"
 				target="_blank"
 				rel="noreferrer"
 				class="inline-block"
