@@ -16,7 +16,8 @@
 	];
 
 	const wallet = [
-		'100% free, no BitBanana fees.',
+		'100% free, no BitBanana fees',
+		'Send & receive on-chain and off-chain',
 		'Contacts (with avatars)',
 		'Send funds to Lightning Addresses',
 		'Send funds without an invoice (keysend)',
@@ -33,6 +34,7 @@
 		'100% Self-Custodial',
 		'100% Open Source code with reproducible releases',
 		'ZERO data collection',
+		'Available on F-Droid',
 		'Tor support',
 		'PIN protected access',
 		'Scrambled PIN by default',

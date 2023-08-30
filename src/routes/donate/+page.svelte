@@ -29,14 +29,12 @@
 </svelte:head>
 
 <Template title="Donate to" position="top">
-	Thank you for considering a donation!
+	Thank you for considering a donation! You are awesome!
 	<br />
-	At BitBanana we do everything for free and donations are the only source of income.
+	Your donation will help and motivate us to spend more time on the project.
 	<br /><br />
-	Your donation will directly help us to spend more time on the project.
-	<br />
-	My dream (Michael, main developer) is to do this full-time and deliver what you love at an unprecedented
-	speed and quality.
+	At BitBanana we do everything for free. There is no business model. We appreciate every single sat
+	donated and believe in a world where our effort will pay back in a positive way.
 
 	<div class="mt-14 grid-cols-3 gap-4 space-y-14 lg:grid lg:space-y-0">
 		{#each team as member}
