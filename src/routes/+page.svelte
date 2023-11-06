@@ -38,9 +38,11 @@
 		'Tor support',
 		'PIN protected access',
 		'Scrambled PIN by default',
+		'Activate stealth mode to hide app',
+		'Option to mask all your balances',
+		'Supports self-hosted Block Explorers',
 		'User guardian system',
-		'Protection against screen recording',
-		'Hide total balance'
+		'Protection against screen recording'
 	];
 
 	const features = [
