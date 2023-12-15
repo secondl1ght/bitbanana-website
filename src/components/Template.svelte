@@ -5,7 +5,7 @@
 	export let external = true;
 	export let position = 'bottom';
 
-	import { Button } from '$comp';
+	import { Button } from '$lib/comp';
 </script>
 
 <div class="space-y-16">

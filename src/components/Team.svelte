@@ -4,7 +4,7 @@
 	export let lightning;
 	export let onchain;
 
-	import { Link } from '$comp';
+	import { Link } from '$lib/comp';
 </script>
 
 <div class="text-center">

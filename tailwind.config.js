@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{html,js,svelte}'],
+	content: ['./src/**/*.{html,js,ts,svelte}'],
 	theme: {
 		fontSize: {
 			xs: ['12px', '16px'],

@@ -1,5 +1,5 @@
 <script>
-	import { Template } from '$comp';
+	import { Template } from '$lib/comp';
 	import { links } from '$lib/store';
 </script>
 

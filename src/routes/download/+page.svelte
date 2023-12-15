@@ -1,5 +1,5 @@
 <script>
-	import { Icon, Link } from '$comp';
+	import { Icon, Link } from '$lib/comp';
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script>
-	import { Button, Link } from '$comp';
+	import { Button, Link } from '$lib/comp';
 
 	const general = [
 		'Connect to remote lightning nodes (LND only supported right now)',

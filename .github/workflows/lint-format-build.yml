@@ -15,5 +15,8 @@ jobs:
       - name: run prettier & eslint
         run: yarn lint
 
+      - name: run check
+        run: yarn check
+
       - name: build app
         run: yarn build
