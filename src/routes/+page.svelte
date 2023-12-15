@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Button, Link } from '$lib/comp';
 
 	const general = [

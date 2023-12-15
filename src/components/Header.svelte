@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	const nav = ['community', 'contribute', 'donate', 'docs', 'about', 'download'];
 
 	let showMobileMenu = false;

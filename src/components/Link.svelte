@@ -1,6 +1,6 @@
-<script>
-	export let link;
-	export let title;
+<script lang="ts">
+	export let link: string;
+	export let title: string;
 	export let external = true;
 	export let style = '';
 </script>

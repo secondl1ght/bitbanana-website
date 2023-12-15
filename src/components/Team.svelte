@@ -1,8 +1,8 @@
-<script>
-	export let name;
-	export let title;
-	export let lightning;
-	export let onchain;
+<script lang="ts">
+	export let name: string;
+	export let title: string;
+	export let lightning: string;
+	export let onchain: string;
 
 	import { Link } from '$lib/comp';
 </script>

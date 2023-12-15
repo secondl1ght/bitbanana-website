@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Team, Template } from '$lib/comp';
 
 	const team = [

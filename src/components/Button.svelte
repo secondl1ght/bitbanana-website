@@ -1,7 +1,7 @@
-<script>
-	export let link;
+<script lang="ts">
+	export let link: string;
 	export let external = false;
-	export let title;
+	export let title: string;
 </script>
 
 <div class="flex justify-center">

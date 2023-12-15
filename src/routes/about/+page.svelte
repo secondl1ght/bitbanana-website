@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Template } from '$lib/comp';
 </script>
 

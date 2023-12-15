@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 </script>
 
@@ -7,5 +7,5 @@
 	<meta property="twitter:title" content="BitBanana - Error" />
 </svelte:head>
 
-<h1 class="text-center text-4xl font-bold lg:text-5xl">{$page.status}: {$page.error.message}</h1>
+<h1 class="text-center text-4xl font-bold lg:text-5xl">{$page.status}: {$page.error?.message}</h1>
 <img src="/images/animation/bananadance.gif" alt="dancing banana" class="mx-auto mt-8" />

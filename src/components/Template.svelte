@@ -1,9 +1,9 @@
-<script>
-	export let title;
-	export let link = undefined;
-	export let button = undefined;
+<script lang="ts">
+	export let title: string;
+	export let link: string | undefined = undefined;
+	export let button: string | undefined = undefined;
 	export let external = true;
-	export let position = 'bottom';
+	export let position: 'top' | 'bottom' = 'bottom';
 
 	import { Button } from '$lib/comp';
 </script>

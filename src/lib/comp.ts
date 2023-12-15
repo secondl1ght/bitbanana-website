@@ -6,4 +6,3 @@ export { default as Icon } from '../components/Icon.svelte';
 export { default as Link } from '../components/Link.svelte';
 export { default as Team } from '../components/Team.svelte';
 export { default as Template } from '../components/Template.svelte';
-
