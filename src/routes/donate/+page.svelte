@@ -1,5 +1,5 @@
 <script>
-	import { Template, Team } from '$lib/comp';
+	import { Team, Template } from '$lib/comp';
 
 	const team = [
 		{

@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 
-	import { Header, Footer } from '$lib/comp';
+	import { Footer, Header } from '$lib/comp';
 </script>
 
 <Header />
