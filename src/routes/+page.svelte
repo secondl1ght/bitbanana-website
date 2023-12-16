@@ -62,7 +62,7 @@
 	<section id="hero" class="space-y-4 lg:space-y-2">
 		<img src="/images/logo.svg" alt="BitBanana" class="mx-auto w-[218px] lg:w-auto" />
 
-		<h1 class="pb-6 text-center text-2xl font-bold lg:text-3xl">
+		<h1 class="relative z-10 pb-6 text-center text-2xl font-bold lg:text-3xl">
 			<span class="inline-block">Lightning Node</span>
 			<span class="inline-block">Management for Android</span>
 		</h1>
