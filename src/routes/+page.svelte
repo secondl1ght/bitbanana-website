@@ -183,7 +183,7 @@
 			<Button link="/download" title="Download" />
 		</div>
 
-		<h3 class="mb-8 text-2xl font-bold lg:mb-16 lg:text-3xl">Feature Overview</h3>
+		<h3 class="relative z-10 mb-8 text-2xl font-bold lg:mb-16 lg:text-3xl">Feature Overview</h3>
 		<div class="grid-cols-2 gap-8 space-y-8 lg:grid lg:space-y-0">
 			{#each features as feature}
 				<div>
