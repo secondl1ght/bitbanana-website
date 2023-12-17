@@ -5,14 +5,17 @@
 		'Connect to remote lightning nodes (LND only supported right now)',
 		'Available in many languages',
 		'Explanations and help across the app',
+		'Easy phone migration',
 		'And of course, BitBanana is Bitcoin only!'
 	];
 
 	const nodeManagement = [
 		'Use your node as a wallet wherever you are',
 		'Manage multiple nodes',
-		'Channel management',
-		'Routing summary'
+		'Manage channels',
+		'Manage routing fees',
+		'Routing summary',
+		'Manage peers'
 	];
 
 	const wallet = [
@@ -21,13 +24,14 @@
 		'Contacts (with avatars)',
 		'Send funds to Lightning Addresses',
 		'Send funds without an invoice (keysend)',
+		'Keysend messages',
 		'NFC support',
 		'Transaction filters',
 		'BTC, mBTC, bit & Satoshi units',
 		'Fiat currency prices',
 		'Support for SegWit & Taproot',
 		'Sign / Verify',
-		'LNURL support (pay, withdraw & channel)'
+		'LNURL support (pay, withdraw, auth, channel)'
 	];
 
 	const securityAndPrivacy = [
