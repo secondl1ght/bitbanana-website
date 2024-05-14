@@ -39,9 +39,9 @@
 	</div>
 
 	<nav
-		class="absolute top-[81px] z-50 bg-primary px-8 py-4 transition-all ease-in-out {showMobileMenu
+		class="absolute top-[81px] z-50 overflow-y-auto bg-primary px-8 py-4 transition-all ease-in-out {showMobileMenu
 			? 'left-0'
-			: 'left-[-100%]'} h-[100vh] w-full space-y-12"
+			: 'left-[-100%]'} h-[100dvh] w-full space-y-12"
 	>
 		{#each nav.reverse() as link}
 			<a
