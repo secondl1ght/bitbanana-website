@@ -2,7 +2,7 @@
 	import { Button, Link } from '$lib/comp';
 
 	const general = [
-		'Connect to remote lightning nodes (LND only supported right now)',
+		'Connect to remote lightning nodes (LND, Core Lightning & LndHub)',
 		'Available in many languages',
 		'Explanations and help across the app',
 		'Easy phone migration',
@@ -24,6 +24,7 @@
 		'Contacts (with avatars)',
 		'Send funds to Lightning Addresses',
 		'Send funds without an invoice (keysend)',
+		'Send and request sub satoshi amounts',
 		'Keysend messages',
 		'NFC support',
 		'Transaction filters',
@@ -42,9 +43,11 @@
 		'Tor support',
 		'PIN protected access',
 		'Scrambled PIN by default',
-		'Activate stealth mode to hide app',
+		'Activate stealth mode to hide the app',
 		'Option to mask all your balances',
 		'Supports self-hosted Block Explorers',
+		'Supports self-hosted Fee Estimation',
+		'Supports self-hosted Exchange Rate Providers',
 		'User guardian system',
 		'Protection against screen recording'
 	];
