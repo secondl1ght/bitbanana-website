@@ -15,7 +15,8 @@
 		'Manage channels',
 		'Manage routing fees',
 		'Routing summary',
-		'Manage peers'
+		'Manage peers',
+		'Manage watchtowers'
 	];
 
 	const wallet = [
@@ -24,7 +25,9 @@
 		'Contacts (with avatars)',
 		'Send funds to Lightning Addresses',
 		'Send funds without an invoice (keysend)',
+		'Bolt 12 support (Core Lightning only)',
 		'Send and request sub satoshi amounts',
+		'Display payment paths',
 		'Keysend messages',
 		'NFC support',
 		'Transaction filters',
@@ -40,6 +43,7 @@
 		'100% Open Source code with reproducible releases',
 		'ZERO data collection',
 		'Available on F-Droid',
+		'Coin Control',
 		'Tor support',
 		'PIN protected access',
 		'Scrambled PIN by default',
