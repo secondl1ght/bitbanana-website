@@ -2,6 +2,10 @@
 	const nav = ['community', 'contribute', 'donate', 'docs', 'about', 'download'];
 
 	let showMobileMenu = false;
+
+	function getLinkUrl(link: string) {
+		return link === 'docs' ? 'https://docs.bitbanana.app' : `/${link}`;
+	}
 </script>
 
 <!-- desktop header -->
@@ -14,7 +18,7 @@
 
 	<nav class="flex space-x-12">
 		{#each nav as link}
-			<a href={'/' + link} class="font-semibold text-link hover:text-hover"
+			<a href={getLinkUrl(link)} class="font-semibold text-link hover:text-hover"
 				>{link.charAt(0).toUpperCase() + link.slice(1)}</a
 			>
 		{/each}
@@ -45,7 +49,7 @@
 	>
 		{#each nav.reverse() as link}
 			<a
-				href={'/' + link}
+				href={getLinkUrl(link)}
 				on:click={() => (showMobileMenu = false)}
 				class="block text-xl font-bold text-link hover:text-hover"
 				>{link.charAt(0).toUpperCase() + link.slice(1)}</a
