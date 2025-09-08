@@ -2,9 +2,10 @@
 	import { Button, Link } from '$lib/comp';
 
 	const general = [
-		'Connect to remote lightning nodes (LND, Core Lightning & LndHub)',
-		'Available in many languages',
+		'Connect to remote lightning nodes/wallets (LND, Core Lightning, Nostr Wallet Connect & LndHub)',
 		'Explanations and help across the app',
+		'Available in many languages',
+		'Full right-to-left (RTL) support for Arabic languages',
 		'Easy phone migration',
 		'And of course, BitBanana is Bitcoin only!'
 	];
@@ -45,7 +46,8 @@
 		'Available on F-Droid',
 		'Coin Control',
 		'Tor support',
-		'PIN protected access',
+		'Password/PIN protected access',
+		'Emergency password/PIN',
 		'Scrambled PIN by default',
 		'Activate stealth mode to hide the app',
 		'Option to mask all your balances',
